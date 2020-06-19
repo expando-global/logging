@@ -1,5 +1,5 @@
 import test from 'ava';
-import { LogLevel, LogMessage, mapArgsToMessage } from './index';
+import { LogLevel, LogMessage, mapArgsToMessage } from './logging';
 import timekeeper from 'timekeeper';
 import nock from 'nock';
 // import { LogsQueue, collectLog, collectLogs } from './collectors/new-relic-collector';
