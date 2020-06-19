@@ -1,0 +1,43 @@
+{
+  "name": "logging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava --verbose"
+  },
+  "author": "EXPANDO global, s.r.o",
+  "license": "ISC",
+  "devDependencies": {
+    "@ava/typescript": "1.1.1",
+    "ava": "1.4.1",
+    "nock": "11.4.0",
+    "prettier": "2.0.5",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "15.0.0",
+    "@types/got": "9.6.10",
+    "@types/hapi__joi": "15.0.0",
+    "@types/lodash": "4.14.150",
+    "dotenv": "8.2.0",
+    "got": "9.6.0",
+    "joi-extract-type": "15.0.0",
+    "lodash": "4.17.15",
+    "timekeeper": "2.2.0",
+    "typesafe-joi": "2.1.0"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": true,
+    "printWidth": 80
+  },
+  "ava": {
+    "files": [
+      "**/*.test.js"
+    ]
+  }
+}
