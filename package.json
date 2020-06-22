@@ -7,6 +7,11 @@
     "build": "tsc",
     "test": "ava --verbose"
   },
+  "files": [
+    "**/*.js",
+    "**/*.js.map",
+    "**/*.d.ts"
+  ],
   "author": "EXPANDO global, s.r.o",
   "license": "ISC",
   "devDependencies": {

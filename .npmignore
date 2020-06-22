@@ -1,8 +1,0 @@
-node_modules
-.idea
-.npmrc
-**/*.test.ts
-**/*.test.d.ts
-**/*.test.js
-**/*.test.js.map
-tsconfig.json
